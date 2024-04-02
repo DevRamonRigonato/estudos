@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 /*
-    em HTML é id    = em CSS é #
-    em HTML é class = em CSS é .
+    em HTML é id    = em CSS é # (só pode um elemento)
+    em HTML é class = em CSS é . (pode vários elementos)
+    OBS: pode ter 2 id só que em documentos diferentes, mais não pode ter 2 id dentro do mesmo html.
 */
 
 body {
@@ -22,4 +23,21 @@ h1#principal {
 
 h2{
     color: rgba(2, 32, 32, 0.973);
+}
+
+.basico {
+    color: rgb(29, 148, 6);
+    
+}
+
+.intermediario {
+    color: rgb(138, 148, 6);
+}
+
+.avançado {
+    color: rgb(148, 34, 6);
+}
+
+.destaque {
+    background-color: rgba(204, 0, 255, 0.397);
 }
